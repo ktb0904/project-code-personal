@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Play|Raleway');
+
+/*For Logo Text "font-family: 'Lobster', cursive;"*/
+/*For Body Text "font-family: 'Raleway', sans-serif;"*/
+/*For Header/Menu Bar "font-family: 'Play', sans-serif;"*/
+
+/*Color Scheme*/
+/*text color:#2A2B2A*/
+/*Menu Bar Color:#FD8A5E*/
+/*Menu Hover Color:#F59CA9*/
+/*Body Color:#00BFAF*/
+/*Image BG Color:#01DDDD*/
+
+* {margin:0px;
+padding:0px;
+}
+
+.navbar {position:fixed;
+overflow: hidden;
+background-color: #FD8A5E;
+top:0;
+width:100%;
+font-weight: bold;
+font-size: 125%;}
+
+ul {list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height:50px;
+}
+
+li {float: left;}
+
+li a {display: block;
+    color: #2A2B2A;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+
+li a:hover {background-color: #F59CA9;}
+
+body {background-color: #00BFAF;}
+
+.begining {margin-top: 100px;}
+
+.home-row {display: flex;}
+
+.photo-card {height:300px;
+    padding:10px;
+    display: flex;
+    align-items:stretch;
+}
+
+.quarter {width:25%;}
+
+.third {width: 33%;}
+
+.card-content {width:100%;
+    background-size: cover;
+    background-position: center top;
+    background-color:rgba(253,138,94,.7);
+    font-size: 1.5rem;
+    padding:5px;
+    cursor:pointer;
+    justify-content:flex-end;
+    }
