@@ -22,7 +22,12 @@ h2 {font-size: 150%;
     font-family: 'Lobster', cursive;}
 
 hr {border: 1px solid #2A2B2A;
-    color:#F59CA9;
+    color:#F59CA9;}
+    
+.home-text {margin-left: 15px;
+margin-right:15px;
+margin-bottom: 15px;
+    text-align:justify;
 }
 
 .navbar {position:fixed;
@@ -66,19 +71,28 @@ body {background-color: #00BFAF;}
 }
 
 .home-row {display: flex;
-    margin-bottom: 50px
+    margin-bottom: 15px;
 }
 
 .image-rows {flex-wrap:wrap;
     justify-content:space-around;
 }
 
+.sub-home {font-size: 1.5rem;}
+
+.sub {background-color:rgba(253,138,94,.7);
+    width:100%;
+    padding:2px;
+    margin-top:2%;}
+
 .photo-card {height:300px;
     padding:10px;
     display: flex;
     align-items:stretch;
 }
-
+a:link {width: 100%;
+    color:#2A2B2A;
+}
 .quarter {width:20%;}
 
 .third2 {width:30%;}
@@ -93,13 +107,6 @@ body {background-color: #00BFAF;}
     display: flex;
     align-items:flex-end;
     }
-
-.sub-home {font-size: 1.5rem;}
-
-.sub {background-color:rgba(253,138,94,.7);
-    width:90%;
-    padding:2px;
-    margin-top:2%;}
 
 .card-content:hover .sub {
     background-color:#F59CA9 ;}
