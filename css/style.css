@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster|Play|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 
 /*For Logo Text "font-family: 'Lobster', cursive;"*/
 /*For Body Text "font-family: 'Raleway', sans-serif;"*/
@@ -18,7 +18,8 @@ font-size:100%;
 
 h1 {font-size:175%;}
 
-h2 {font-size: 150%;}
+h2 {font-size: 150%;
+    font-family: 'Lobster', cursive;}
 
 hr {border: 1px solid #2A2B2A;
     color:#F59CA9;
@@ -36,6 +37,7 @@ ul {list-style-type: none;
     margin: 0;
     padding: 0;
     height:50px;
+    font-family: 'Play', sans-serif;
 }
 
 li {float: left;}
@@ -50,13 +52,18 @@ li a:hover {background-color: #F59CA9;}
 
 body {background-color: #00BFAF;}
 
+.body-font {font-family: 'Raleway', sans-serif;}
+
 .begining {margin-top: 100px;}
 
-.top-line {margin-top: 15px;
-    margin-bottom: 40px;
-}
+.top-line {padding-top: 95px;
+    margin-top: -95px;
+    margin-bottom: 40px;}
 
-.bottom-line {margin-bottom: 40px}
+.bottom-line {margin-bottom: 40px;
+    padding-top: 95px;
+    margin-top: -95px;
+}
 
 .home-row {display: flex;
     margin-bottom: 50px
@@ -81,10 +88,10 @@ body {background-color: #00BFAF;}
 .card-content {width:100%;
     background-size: cover;
     background-position: center top;
-    background-color:rgba(253,138,94,.7);
+    background-color: rgba(253,138,94,.7);
     padding:5px;
-    cursor:pointer;
-    justify-content:flex-end;
+    display: flex;
+    align-items:flex-end;
     }
 
 .sub-home {font-size: 1.5rem;}
